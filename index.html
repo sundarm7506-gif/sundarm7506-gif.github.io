@@ -1,86 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
-        <title>Alagu Sundara Pandiyan | Portfolio</title>
-        <link rel="icon"
-        type="img/png"
-        href="img/favicon.png">
-          <link rel="preconnect" href="https://fonts.googleapis.com">
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-          <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-          <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-    <nav>
-        <h2 class="logo">Portfolio</h2>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-<li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <section class="hero" id="home">
-        <div class="hero-text">
-            <h1>Hello, I'm <span>Alagu Sundara Pandiyan</span></h1>
-            <h2>Full Stack Developer</h2>
-            <p>
-            I build responsive websites using HTML, CSS, JavaScript and Python.
-            Currently learning Full Stack Development and looking for exciting opportunities.
-        </p>
-        <a href="resume.pdf"class="btn">Download Resume</a>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#070b14">
+
+<!-- ==================== SEO (Google Search) ==================== -->
+<title>Alagu Sundara Pandiyan | BSc CS with AI Portfolio</title>
+<meta name="description" content="Portfolio of Alagu Sundara Pandiyan, final year BSc CS with AI student. Python, SQL and data analytics projects.">
+<meta name="author" content="Alagu Sundara Pandiyan">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://sundarm7506-gif.github.io/">
+
+<!-- WhatsApp / LinkedIn share preview -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Alagu Sundara Pandiyan | Portfolio">
+<meta property="og:description" content="BSc CS with AI student. Python, SQL and data analytics projects.">
+<meta property="og:url" content="https://sundarm7506-gif.github.io/">
+<meta property="og:image" content="https://sundarm7506-gif.github.io/img/profile.jpg">
+
+<!-- Google ku "idhu oru person" nu purinja -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Alagu Sundara Pandiyan",
+  "url": "https://sundarm7506-gif.github.io/",
+  "jobTitle": "BSc Computer Science with AI Student",
+  "sameAs": [
+    "https://github.com/sundarm7506-gif",
+    "https://linkedin.com/in/alagu-sundara-pandiyan-m-822261369/"
+  ]
+}
+</script>
+
+<!-- Step 7: Google Search Console verification tag inga paste pannunga -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- ==================== NAVIGATION BAR ==================== -->
+<header class="navbar">
+  <a class="logo" href="#home">ASP<span>.</span></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation"><i class="fa-solid fa-bars"></i></button>
+  <nav class="nav-links" id="navLinks">
+    <a class="active" href="#home"><i class="fa-solid fa-house"></i> Home</a>
+    <a href="#about"><i class="fa-regular fa-user"></i> About</a>
+    <a href="#skills"><i class="fa-solid fa-layer-group"></i> Skills</a>
+    <a href="#projects"><i class="fa-regular fa-folder-open"></i> Projects</a>
+    <a href="#contact"><i class="fa-regular fa-envelope"></i> Contact</a>
+  </nav>
+  <a class="nav-cta" href="#contact">Let's Connect ↗</a>
+</header>
+<main>
+<!-- ==================== HOME / HERO SECTION ==================== -->
+<section class="hero section-wrap" id="home">
+  <div class="hero-copy">
+    <p class="eyebrow"><span class="status-dot"></span> ASPIRING DATA SCIENTIST</p>
+    <h1>Hi, I'm<br><span class="gradient-text">Alagu Sundara</span><br><span class="gradient-text">Pandiyan</span></h1>
+    <p class="hero-description">Computer Science student with a strong interest in Artificial Intelligence and Data Science. I use Python and SQL to explore data, solve problems, and build practical projects. I'm continuously learning and working toward a career in AI/ML and Data Science.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#projects"><i class="fa-solid fa-rocket"></i> Explore My Work <i class="fa-solid fa-arrow-right"></i></a>
+      <a class="btn btn-outline" href="#contact"><i class="fa-regular fa-envelope"></i> Contact Me</a>
+      <a class="btn btn-outline" href="https://github.com/sundarm7506-gif" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+      <a class="btn btn-outline" href="https://linkedin.com/in/alagu-sundara-pandiyan-m-822261369/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+      <span class="resume-pill"><i class="fa-regular fa-file-lines"></i> Resume Coming Soon</span>
     </div>
-    <div class="social-icons">
-        <a href="https://github.com/sundarm7506-gif" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/sundar-m-822261369/" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="mailto:sundar.m7506@gmail.com"><i class="fas fa-envelope"></i></a>
+    <div class="hero-stats">
+      <div><i class="fa-brands fa-python"></i><span><b>Python</b><small>Programming</small></span></div>
+      <div><i class="fa-solid fa-database"></i><span><b>SQL</b><small>Databases</small></span></div>
+      <div><i class="fa-solid fa-brain"></i><span><b>Problem Solving</b><small>Strength</small></span></div>
     </div>
+  </div>
+  <div class="hero-visual" id="heroVisual">
+    <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+    <article class="profile-card" id="profileCard">
+      <div class="card-top"><span>PROFILE_01</span><span class="live-dot"></span></div>
+      <div class="profile-image"><img src="img/profile.jpg" alt="Alagu Sundara Pandiyan" class="profile-photo"></div>
+      <div class="profile-info"><p class="profile-role">ASPIRING DATA SCIENTIST</p><h2>Alagu Sundara Pandiyan</h2><p>Python · SQL · Git · GitHub</p></div>
+      <div class="card-bottom"><span>PORTFOLIO 2026</span><span class="sparkle">✦</span></div>
+    </article>
+    <div class="floating-chip chip-python"><i class="fa-brands fa-python"></i> Python</div>
+    <div class="floating-chip chip-sql"><i class="fa-solid fa-database"></i> SQL</div>
+    <div class="floating-chip chip-github"><i class="fa-brands fa-github"></i> GitHub</div>
+  </div>
+  <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
 </section>
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        I am a B.Sc Computer Science student at Rathinam College of Arts and Science.
-        I am passionate about Full Stack Development and continuously improving my programming skills.
-    </p>
+
+<!-- ==================== ABOUT SECTION ==================== -->
+<section class="content-section section-wrap" id="about">
+  <p class="section-label">01 / ABOUT ME</p>
+  <div class="heading-row"><h2>Curious mind.<br><span class="gradient-text">Analytical thinking.</span></h2><p>I enjoy turning what I learn into practical work and steadily developing my technical and problem-solving skills.</p></div>
+  <div class="about-panel"><div class="about-icon"><i class="fa-solid fa-code"></i></div><div><h3>A little about my journey</h3><p>I'm a Computer Science student interested in Data Science and Artificial Intelligence. I enjoy learning Python and SQL, solving problems, and applying my knowledge to practical projects. My goal is to build useful data-driven solutions and grow as a Data Scientist or AI/ML Engineer.</p></div></div>
 </section>
-<section id="skills">
-    <h2>Skills</h2>
-    <div class="skills-container">
-        <div class="skill">HTML5</div>
-        <div class="skill">CSS3</div>
-        <div class="skill">Python</div>
-        <div class="skill">SQL</div>
-        <div class="skill">Git</div>
-        <div class="skill">GitHub</div>
-    </div>
+
+<!-- ==================== SKILLS SECTION ==================== -->
+<section class="content-section section-wrap" id="skills">
+  <p class="section-label">02 / MY SKILLS</p>
+  <div class="heading-row"><h2>Tools I <span class="gradient-text">work with.</span></h2><p>The skills I'm building and using in my learning journey.</p></div>
+  <div class="skills-grid">
+    <article class="skill-card"><i class="fa-brands fa-python"></i><small>01</small><h3>Python</h3><p>Programming</p></article>
+    <article class="skill-card"><i class="fa-solid fa-database"></i><small>02</small><h3>SQL</h3><p>Database Queries</p></article>
+    <article class="skill-card"><i class="fa-brands fa-git-alt"></i><small>03</small><h3>Git</h3><p>Version Control</p></article>
+    <article class="skill-card"><i class="fa-brands fa-github"></i><small>04</small><h3>GitHub</h3><p>Code Repository</p></article>
+    <article class="skill-card"><i class="fa-solid fa-puzzle-piece"></i><small>05</small><h3>Problem Solving</h3><p>Logical Thinking</p></article>
+    <article class="skill-card"><i class="fa-solid fa-chart-line"></i><small>06</small><h3>Analytical Skills</h3><p>Data Analysis</p></article>
+  </div>
 </section>
-<section id="projects">
-    <h2>Projects</h2>
-    <div class="project-container">
-        <div class="project-card">
-            <h3>Portfolio Website</h3>
-            <p>Designed and developed a responsive personal portfolio using HTML and CSS.</p>
-            <div class="project-links">
-                <a href="#" class="project-btn">Live Demo</a>
-                <a href="#" class="project-btn">GitHub</a>
-            </div>
-        </div>
-    </div>
+
+<!-- ==================== PROJECTS SECTION ==================== -->
+<section class="content-section section-wrap" id="projects">
+  <p class="section-label">03 / SELECTED WORK</p>
+  <div class="heading-row"><h2>Projects that show<br><span class="gradient-text">what I can do.</span></h2><p>Practical projects connecting programming, databases, and data insights.</p></div>
+  <div class="projects-grid">
+    <article class="project-card"><div class="project-top"><span>PROJECT / 001</span><i class="fa-solid fa-arrow-up-right-from-square"></i></div><div class="project-icon"><i class="fa-solid fa-chart-column"></i></div><p class="project-category">DATA ANALYTICS</p><h3>Intelligent Business Operations Analytics Platform</h3><p class="project-description">A business analytics platform designed to analyze sales, orders, and operational data. It uses a database, Python-based APIs, and interactive dashboards to help users understand business performance and explore useful insights.</p><div class="project-tech"><span>Python</span><span>SQL</span><span>MySQL</span><span>FastAPI</span><span>Streamlit</span><span>Plotly</span></div><div class="project-footer">IN DEVELOPMENT</div></article>
+    <article class="project-card"><div class="project-top"><span>PROJECT / 002</span><i class="fa-solid fa-sparkles"></i></div><div class="project-icon"><i class="fa-solid fa-brain"></i></div><p class="project-category">MACHINE LEARNING</p><h3>More Projects Coming Soon</h3><p class="project-description">I'm continuing to learn and build practical projects in Data Science and Machine Learning. More projects will be added as they are completed.</p><div class="project-tech"><span>Python</span><span>Data Science</span><span>AI / ML</span></div><div class="project-footer learning">LEARNING & BUILDING</div></article>
+  </div>
 </section>
-<section id="contact">
-    <h2>Contact</h2>
-    <p>📧 sundar.m7506@gmail.com</p>
-    <p>📱 +91 7904557506</p>
-    <p>📍 Coimbatore, Tamil Nadu</p>
+
+<!-- ==================== CONTACT SECTION ==================== -->
+<section class="contact-section section-wrap" id="contact">
+  <p class="section-label">04 / CONTACT</p>
+  <div class="contact-panel"><div><p class="eyebrow"><span class="status-dot"></span> OPEN TO LEARNING OPPORTUNITIES</p><h2>Let's build something<br><span class="gradient-text">meaningful.</span></h2><p>I'm interested in learning opportunities, projects, and entry-level opportunities in the IT field.</p></div><div class="contact-links"><a href="https://github.com/sundarm7506-gif" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub ↗</a><a href="https://linkedin.com/in/alagu-sundara-pandiyan-m-822261369/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn ↗</a></div></div>
 </section>
-<footer>
-    <p>© 2026 Alagu Sundara Pandiyan | All Rights Reserved</p>
-</footer>
+</main>
+<!-- ==================== FOOTER ==================== -->
+<footer class="footer section-wrap"><a class="logo" href="#home">ASP<span>.</span></a><p>Designed & built by Alagu Sundara Pandiyan · 2026</p><a class="top-link" href="#home" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a></footer>
 <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sundarm7506-gif.github.io/sitemap.xml
